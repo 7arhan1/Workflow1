@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: step1
         run: echo "Hello from job1"
+      - name: step1
+        run:  date
 
   job2:
     name: job2
@@ -16,6 +18,8 @@ jobs:
     steps:
       - name: step2
         run: echo "Hello from job2"
+      - name: step2
+        run: date
 
   job3:
     name: job3
@@ -23,6 +27,8 @@ jobs:
     steps:
       - name: step3
         run: echo "Hello from job3"
+      - name: step3
+        run: date
 
   job4:
     name: job4
